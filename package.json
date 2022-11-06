@@ -1,0 +1,16 @@
+{
+  "name": "elm_tictactoe",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/AfoeJoe/Elm_TicTacToe.git",
+  "author": "Afoejoe <“afoejoe@gmail.com”>",
+  "license": "MIT",
+  "scripts": {
+    "build": "elm make src/TicTacToe.elm --optimize --output app.js",
+    "compile": "elm make src/TicTacToe.elm --output app.js",
+    "dev": "elm reactor"
+  },
+  "dependencies": {
+    "elm": "^0.19.1-5"
+  }
+}
